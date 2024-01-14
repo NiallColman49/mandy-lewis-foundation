@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Maax font */
+@font-face {
+    font-family: "Maax";
+    src: url("../assets/fonts/Maax-Regular.woff2") format("woff2"),
+        url("../assets/fonts/Maax-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* BHF Beats font */
+@font-face {
+    font-family: "BHF Beats";
+    src: url("../assets/fonts/BHFBeats-Bold.woff2") format("woff2"),
+        url("../assets/fonts/BHFBeats-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@layer base {
+    html,
+    p {
+        font-family: "Maax";
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "BHF Beats";
+    }
+
+    h1 {
+        @apply text-4xl lg:text-7xl leading-tight;
+    }
+
+    button {
+        @apply rounded-full w-40 flex justify-center items-center text-center bg-red-400 py-3 text-white text-lg;
+    }
+}
