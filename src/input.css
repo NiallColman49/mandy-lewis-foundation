@@ -23,6 +23,10 @@
 }
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
+
     html,
     p {
         font-family: "Maax";
@@ -37,10 +41,37 @@
     }
 
     h1 {
-        @apply text-4xl lg:text-7xl leading-tight;
+        @apply text-4xl lg:text-7xl leading-tight lg:leading-tight text-mlf-red;
+    }
+
+    h2 {
+        @apply text-2xl lg:text-4xl leading-tight lg:leading-tight text-mlf-red;
+    }
+
+    h3 {
+        @apply text-xl lg:text-3xl leading-tight lg:leading-tight text-white;
+    }
+
+    p {
+        @apply text-base lg:text-xl;
     }
 
     button {
-        @apply rounded-full w-40 flex justify-center items-center text-center bg-red-400 py-3 text-white text-lg;
+        @apply rounded-full w-40 flex justify-center items-center text-center bg-mlf-red border-2 border-mlf-red py-3 text-white text-lg hover:bg-transparent hover:text-mlf-red hover:border-mlf-red transition duration-200;
     }
+
+    .white-button {
+        @apply rounded-full w-40 flex justify-center items-center text-center bg-white border-2 border-white py-3 text-mlf-red text-lg hover:bg-transparent hover:text-white hover:border-white transition duration-200;
+    }
+}
+
+.slick-dots li > button {
+    color: #e71348 !important;
+}
+
+.slick-dots li button:before,
+.slick-dots li button:before,
+.slick-dots li.slick-active button,
+.slick-dots li.slick-active button:before {
+    color: #e71348 !important;
 }

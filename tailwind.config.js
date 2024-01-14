@@ -3,14 +3,17 @@ module.exports = {
     content: ["./*.html"],
     theme: {
         container: {
-            DEFAULT: "1rem",
-            sm: "2rem",
-            lg: "4rem",
-            xl: "5rem",
-            "2xl": "6rem",
+            padding: "1rem",
             center: true,
         },
-        extend: {},
+        extend: {
+            lineHeight: {
+                tight: "1.2",
+            },
+            colors: {
+                "mlf-red": "#E71348",
+            },
+        },
     },
     plugins: [],
 };
