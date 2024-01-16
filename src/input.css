@@ -65,13 +65,14 @@
     }
 }
 
-.slick-dots li > button {
-    color: #e71348 !important;
+.slick-dots {
+    @apply flex flex-wrap items-center justify-end mt-8;
 }
 
-.slick-dots li button:before,
-.slick-dots li button:before,
-.slick-dots li.slick-active button,
-.slick-dots li.slick-active button:before {
-    color: #e71348 !important;
+.slick-dots li button {
+    @apply border border-mlf-red rounded-full mx-1.5 h-6 w-6 text-[0];
+}
+
+.slick-dots .slick-active button {
+    @apply bg-mlf-red;
 }
