@@ -45,7 +45,7 @@
     }
 
     h2 {
-        @apply text-2xl lg:text-4xl leading-tight lg:leading-tight text-mlf-red;
+        @apply text-3xl lg:text-5xl leading-tight lg:leading-tight text-mlf-red;
     }
 
     h3 {
