@@ -11,7 +11,7 @@ module.exports = {
                 tight: "1.2",
             },
             colors: {
-                "mlf-red": "#E71348",
+                "mlf-red": "#DA3832",
             },
         },
     },
