@@ -23,6 +23,10 @@
 }
 
 @layer base {
+    body {
+        background-color: rgb(211, 106, 150, 0.05);
+    }
+
     html {
         @apply scroll-smooth;
     }

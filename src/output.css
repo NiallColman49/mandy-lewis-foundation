@@ -444,6 +444,10 @@ video {
   display: none;
 }
 
+body {
+  background-color: rgb(211, 106, 150, 0.05);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -747,6 +751,10 @@ button:hover {
   right: 0px;
 }
 
+.right-10 {
+  right: 2.5rem;
+}
+
 .right-24 {
   right: 6rem;
 }
@@ -759,44 +767,44 @@ button:hover {
   top: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.-top-1 {
+  top: -0.25rem;
 }
 
-.-bottom-10 {
-  bottom: -2.5rem;
+.right-12 {
+  right: 3rem;
 }
 
-.right-10 {
-  right: 2.5rem;
+.left-12 {
+  left: 3rem;
 }
 
-.right-20 {
-  right: 5rem;
+.left-20 {
+  left: 5rem;
 }
 
-.-right-20 {
-  right: -5rem;
+.left-28 {
+  left: 7rem;
 }
 
-.right-40 {
-  right: 10rem;
+.left-32 {
+  left: 8rem;
 }
 
-.right-64 {
-  right: 16rem;
+.left-10 {
+  left: 2.5rem;
 }
 
-.right-48 {
-  right: 12rem;
+.left-16 {
+  left: 4rem;
 }
 
-.-bottom-20 {
-  bottom: -5rem;
+.left-40 {
+  left: 10rem;
 }
 
-.-z-\[1\] {
-  z-index: -1;
+.left-36 {
+  left: 9rem;
 }
 
 .order-1 {
@@ -816,32 +824,20 @@ button:hover {
   margin-left: -0.5rem;
 }
 
-.-mt-32 {
-  margin-top: -8rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.-mt-10 {
-  margin-top: -2.5rem;
-}
-
-.-mt-12 {
-  margin-top: -3rem;
-}
-
-.-mt-16 {
-  margin-top: -4rem;
-}
-
 .-mt-14 {
   margin-top: -3.5rem;
 }
 
+.-mt-32 {
+  margin-top: -8rem;
+}
+
 .ml-\[50px\] {
   margin-left: 50px;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .block {
@@ -856,48 +852,16 @@ button:hover {
   display: none;
 }
 
+.h-\[228px\] {
+  height: 228px;
+}
+
 .h-\[275px\] {
   height: 275px;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-\[430px\] {
-  height: 430px;
-}
-
-.h-\[290px\] {
-  height: 290px;
-}
-
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[250px\] {
-  height: 250px;
-}
-
-.h-\[285px\] {
-  height: 285px;
-}
-
-.h-\[240px\] {
-  height: 240px;
-}
-
-.h-\[228px\] {
-  height: 228px;
 }
 
 .w-1\/4 {
@@ -924,56 +888,16 @@ button:hover {
   width: 10rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-1\/3 {
-  width: 33.333333%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-\[320px\] {
-  width: 320px;
-}
-
-.w-\[475px\] {
-  width: 475px;
-}
-
-.w-\[215px\] {
-  width: 215px;
-}
-
-.w-\[220px\] {
-  width: 220px;
-}
-
-.w-\[275px\] {
-  width: 275px;
-}
-
-.w-\[265px\] {
-  width: 265px;
-}
-
-.w-\[160px\] {
-  width: 160px;
-}
-
-.w-\[102\%\] {
-  width: 102%;
 }
 
 .w-10 {
@@ -1049,24 +973,8 @@ button:hover {
   gap: 2rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .overflow-hidden {
   overflow: hidden;
-}
-
-.rounded-2xl {
-  border-radius: 1rem;
-}
-
-.rounded-\[2rem\] {
-  border-radius: 2rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
 }
 
 .rounded-3xl {
@@ -1086,15 +994,6 @@ button:hover {
 .object-center {
   -o-object-position: center;
      object-position: center;
-}
-
-.object-top {
-  -o-object-position: top;
-     object-position: top;
-}
-
-.p-6 {
-  padding: 1.5rem;
 }
 
 .px-10 {
@@ -1131,8 +1030,16 @@ button:hover {
   padding-bottom: 3.5rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .pl-5 {
@@ -1153,22 +1060,6 @@ button:hover {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
 }
 
 .text-center {
@@ -1198,6 +1089,11 @@ button:hover {
   line-height: 1.2;
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-mlf-red {
   --tw-text-opacity: 1;
   color: rgb(218 56 50 / var(--tw-text-opacity));
@@ -1206,16 +1102,6 @@ button:hover {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.grayscale {
-  --tw-grayscale: grayscale(100%);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 /* Maax font */
@@ -1283,24 +1169,7 @@ button:hover {
   color: rgb(218 56 50 / var(--tw-text-opacity));
 }
 
-.hover\:grayscale-0:hover {
-  --tw-grayscale: grayscale(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 @media (min-width: 640px) {
-  .sm\:right-24 {
-    right: 6rem;
-  }
-
-  .sm\:right-6 {
-    right: 1.5rem;
-  }
-
-  .sm\:-bottom-10 {
-    bottom: -2.5rem;
-  }
-
   .sm\:block {
     display: block;
   }
@@ -1313,10 +1182,6 @@ button:hover {
     display: none;
   }
 
-  .sm\:h-\[300px\] {
-    height: 300px;
-  }
-
   .sm\:w-3\/4 {
     width: 75%;
   }
@@ -1325,22 +1190,14 @@ button:hover {
     width: 322px;
   }
 
-  .sm\:w-\[475px\] {
-    width: 475px;
-  }
-
-  .sm\:w-\[220px\] {
-    width: 220px;
-  }
-
   .sm\:pt-6 {
     padding-top: 1.5rem;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:w-2\/3 {
-    width: 66.666667%;
+  .md\:w-1\/2 {
+    width: 50%;
   }
 
   .md\:gap-20 {
@@ -1361,28 +1218,12 @@ button:hover {
     bottom: 0px;
   }
 
-  .lg\:left-24 {
-    left: 6rem;
-  }
-
-  .lg\:-bottom-2 {
-    bottom: -0.5rem;
-  }
-
-  .lg\:bottom-2 {
-    bottom: 0.5rem;
-  }
-
-  .lg\:bottom-4 {
-    bottom: 1rem;
-  }
-
   .lg\:bottom-8 {
     bottom: 2rem;
   }
 
-  .lg\:-right-10 {
-    right: -2.5rem;
+  .lg\:left-24 {
+    left: 6rem;
   }
 
   .lg\:order-1 {
@@ -1441,11 +1282,6 @@ button:hover {
     gap: 3rem;
   }
 
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
   .lg\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -1484,6 +1320,19 @@ button:hover {
     padding-top: 2rem;
   }
 
+  .lg\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  .lg\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1495,20 +1344,11 @@ button:hover {
 }
 
 @media (min-width: 1280px) {
-  .xl\:right-0 {
-    right: 0px;
-  }
-
   .xl\:w-\[170px\] {
     width: 170px;
   }
 
   .xl\:w-\[420px\] {
     width: 420px;
-  }
-
-  .xl\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 }
