@@ -444,10 +444,6 @@ video {
   display: none;
 }
 
-body {
-  background-color: rgb(211, 106, 150, 0.05);
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -470,7 +466,7 @@ h1 {
   line-height: 2.5rem;
   line-height: 1.2;
   --tw-text-opacity: 1;
-  color: rgb(218 56 50 / var(--tw-text-opacity));
+  color: rgb(237 0 140 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -485,7 +481,7 @@ h2 {
   line-height: 2.25rem;
   line-height: 1.2;
   --tw-text-opacity: 1;
-  color: rgb(218 56 50 / var(--tw-text-opacity));
+  color: rgb(237 0 140 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -531,9 +527,9 @@ button {
   border-radius: 9999px;
   border-width: 2px;
   --tw-border-opacity: 1;
-  border-color: rgb(218 56 50 / var(--tw-border-opacity));
+  border-color: rgb(237 0 140 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(218 56 50 / var(--tw-bg-opacity));
+  background-color: rgb(237 0 140 / var(--tw-bg-opacity));
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   text-align: center;
@@ -550,10 +546,10 @@ button {
 
 button:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(218 56 50 / var(--tw-border-opacity));
+  border-color: rgb(237 0 140 / var(--tw-border-opacity));
   background-color: transparent;
   --tw-text-opacity: 1;
-  color: rgb(218 56 50 / var(--tw-text-opacity));
+  color: rgb(237 0 140 / var(--tw-text-opacity));
 }
 
 .white-button {
@@ -573,7 +569,7 @@ button:hover {
   font-size: 1.125rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
-  color: rgb(218 56 50 / var(--tw-text-opacity));
+  color: rgb(237 0 140 / var(--tw-text-opacity));
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -739,12 +735,24 @@ button:hover {
   bottom: -30px;
 }
 
+.-top-1 {
+  top: -0.25rem;
+}
+
 .bottom-6 {
   bottom: 1.5rem;
 }
 
 .left-0 {
   left: 0px;
+}
+
+.left-32 {
+  left: 8rem;
+}
+
+.left-36 {
+  left: 9rem;
 }
 
 .right-0 {
@@ -765,46 +773,6 @@ button:hover {
 
 .top-0 {
   top: 0px;
-}
-
-.-top-1 {
-  top: -0.25rem;
-}
-
-.right-12 {
-  right: 3rem;
-}
-
-.left-12 {
-  left: 3rem;
-}
-
-.left-20 {
-  left: 5rem;
-}
-
-.left-28 {
-  left: 7rem;
-}
-
-.left-32 {
-  left: 8rem;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
-.left-16 {
-  left: 4rem;
-}
-
-.left-40 {
-  left: 10rem;
-}
-
-.left-36 {
-  left: 9rem;
 }
 
 .order-1 {
@@ -868,6 +836,10 @@ button:hover {
   width: 25%;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .w-2\/4 {
   width: 50%;
 }
@@ -898,10 +870,6 @@ button:hover {
 
 .w-full {
   width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .-translate-y-1\/2 {
@@ -939,6 +907,10 @@ button:hover {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 
 .items-center {
@@ -983,7 +955,7 @@ button:hover {
 
 .bg-mlf-red {
   --tw-bg-opacity: 1;
-  background-color: rgb(218 56 50 / var(--tw-bg-opacity));
+  background-color: rgb(237 0 140 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1062,6 +1034,10 @@ button:hover {
   padding-top: 1.5rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1096,7 +1072,7 @@ button:hover {
 
 .text-mlf-red {
   --tw-text-opacity: 1;
-  color: rgb(218 56 50 / var(--tw-text-opacity));
+  color: rgb(237 0 140 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -1150,13 +1126,13 @@ button:hover {
   border-radius: 9999px;
   border-width: 1px;
   --tw-border-opacity: 1;
-  border-color: rgb(218 56 50 / var(--tw-border-opacity));
+  border-color: rgb(237 0 140 / var(--tw-border-opacity));
   font-size: 0;
 }
 
 .slick-dots .slick-active button {
   --tw-bg-opacity: 1;
-  background-color: rgb(218 56 50 / var(--tw-bg-opacity));
+  background-color: rgb(237 0 140 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover {
@@ -1166,7 +1142,7 @@ button:hover {
 
 .hover\:text-mlf-red:hover {
   --tw-text-opacity: 1;
-  color: rgb(218 56 50 / var(--tw-text-opacity));
+  color: rgb(237 0 140 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1304,6 +1280,10 @@ button:hover {
     padding-bottom: 5rem;
   }
 
+  .lg\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
   .lg\:pt-0 {
     padding-top: 0px;
   }
@@ -1318,14 +1298,6 @@ button:hover {
 
   .lg\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .lg\:pr-4 {
-    padding-right: 1rem;
-  }
-
-  .lg\:pr-1 {
-    padding-right: 0.25rem;
   }
 
   .lg\:text-2xl {
