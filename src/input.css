@@ -27,6 +27,10 @@
         @apply scroll-smooth;
     }
 
+    body {
+        @apply bg-mlf-light-pink/[.02];
+    }
+
     html,
     p {
         font-family: "Maax";
@@ -41,11 +45,11 @@
     }
 
     h1 {
-        @apply text-4xl lg:text-7xl leading-tight lg:leading-tight text-mlf-red;
+        @apply text-4xl lg:text-7xl leading-tight lg:leading-tight text-mlf-bright-pink;
     }
 
     h2 {
-        @apply text-3xl lg:text-5xl leading-tight lg:leading-tight text-mlf-red;
+        @apply text-3xl lg:text-5xl leading-tight lg:leading-tight text-mlf-bright-pink;
     }
 
     h3 {
@@ -57,11 +61,11 @@
     }
 
     button {
-        @apply rounded-full w-40 flex justify-center items-center text-center bg-mlf-red border-2 border-mlf-red py-3 text-white text-lg hover:bg-transparent hover:text-mlf-red hover:border-mlf-red transition duration-200;
+        @apply rounded-full w-40 flex justify-center items-center text-center bg-mlf-pink border-2 border-mlf-pink py-3 text-white text-lg hover:bg-transparent hover:text-mlf-pink hover:border-mlf-pink transition duration-200;
     }
 
     .white-button {
-        @apply rounded-full w-40 flex justify-center items-center text-center bg-white border-2 border-white py-3 text-mlf-red text-lg hover:bg-transparent hover:text-white hover:border-white transition duration-200;
+        @apply rounded-full w-40 flex justify-center items-center text-center bg-white border-2 border-white py-3 text-mlf-pink text-lg hover:bg-transparent hover:text-white hover:border-white transition duration-200;
     }
 }
 
@@ -70,9 +74,9 @@
 }
 
 .slick-dots li button {
-    @apply border border-mlf-red rounded-full mx-1.5 h-6 w-6 text-[0];
+    @apply border border-mlf-pink rounded-full mx-1.5 h-6 w-6 text-[0];
 }
 
 .slick-dots .slick-active button {
-    @apply bg-mlf-red;
+    @apply bg-mlf-pink;
 }
