@@ -28,7 +28,7 @@
     }
 
     body {
-        @apply bg-mlf-light-pink/[.02];
+        @apply text-mlf-purple;
     }
 
     html,
@@ -45,11 +45,11 @@
     }
 
     h1 {
-        @apply text-4xl lg:text-7xl leading-tight lg:leading-tight text-mlf-bright-pink;
+        @apply text-4xl lg:text-6xl leading-tight lg:leading-tight text-mlf-purple;
     }
 
     h2 {
-        @apply text-3xl lg:text-5xl leading-tight lg:leading-tight text-mlf-bright-pink;
+        @apply text-3xl lg:text-5xl leading-tight lg:leading-tight text-mlf-purple;
     }
 
     h3 {
@@ -57,11 +57,11 @@
     }
 
     p {
-        @apply text-base lg:text-xl;
+        @apply text-base lg:text-lg;
     }
 
     button {
-        @apply rounded-full w-40 flex justify-center items-center text-center bg-mlf-pink border-2 border-mlf-pink py-3 text-white text-lg hover:bg-transparent hover:text-mlf-pink hover:border-mlf-pink transition duration-200;
+        @apply rounded-full w-40 flex justify-center items-center text-center bg-mlf-bright-pink border-2 border-mlf-bright-pink py-3 text-mlf-purple text-lg hover:bg-transparent hover:text-mlf-bright-pink hover:border-mlf-bright-pink transition duration-200;
     }
 
     .white-button {
@@ -79,4 +79,21 @@
 
 .slick-dots .slick-active button {
     @apply bg-mlf-pink;
+}
+
+.swiper {
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    max-height: 820px;
 }

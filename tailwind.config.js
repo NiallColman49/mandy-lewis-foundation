@@ -12,10 +12,10 @@ module.exports = {
             },
             colors: {
                 "mlf-pink": "#e35e9d",
-                "mlf-purple": "#812b76",
+                "mlf-purple": "#141740",
                 "mlf-dark-purple": "#51174d",
                 "mlf-light-pink": "#efb2ce",
-                "mlf-bright-pink": "#e35e9d",
+                "mlf-bright-pink": "#FF398B",
             },
         },
     },
