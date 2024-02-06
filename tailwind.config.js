@@ -15,7 +15,7 @@ module.exports = {
                 "mlf-purple": "#812b76",
                 "mlf-dark-purple": "#51174d",
                 "mlf-light-pink": "#efb2ce",
-                "mlf-bright-pink": "#ff004f",
+                "mlf-bright-pink": "#e35e9d",
             },
         },
     },
