@@ -163,7 +163,7 @@
     filter: brightness(0) invert(1);
 }
 
-.gradient-bottom {
+/* .gradient-bottom {
     background: rgb(255, 57, 139);
     background: radial-gradient(
         circle at center bottom,
@@ -171,5 +171,27 @@
         rgb(255, 57, 139) 3%,
         rgba(20, 23, 64) 35%,
         rgba(20, 23, 64) 100%
+    );
+} */
+
+/* .gradient-bottom {
+    background: rgb(255, 57, 139);
+    background: radial-gradient(
+        circle at center bottom,
+        rgba(255, 57, 139) 0%,
+        rgb(255, 57, 139) 3%,
+        rgb(255, 174, 215) 35%,
+        rgb(255, 174, 215) 100%
+    );
+} */
+
+.gradient-bottom {
+    background: rgb(255, 57, 139);
+    background: radial-gradient(
+        circle at center bottom,
+        rgb(255, 174, 215) 0%,
+        rgb(255, 174, 215) 3%,
+        rgb(255, 57, 139) 35%,
+        rgb(255, 57, 139) 100%
     );
 }
