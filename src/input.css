@@ -120,6 +120,15 @@
     width: 50px !important;
 }
 
+@media screen and (max-width: 640px) {
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-button-active {
+        height: 35px !important;
+        width: 35px !important;
+    }
+}
+
 .swiper-button-next {
     right: 10px !important;
 }
@@ -146,6 +155,16 @@
     font-size: 25px !important;
     font-weight: 700 !important;
     @apply text-mlf-bright-pink;
+}
+
+@media screen and (max-width: 640px) {
+    .swiper-button-next::after,
+    .swiper-button-prev::after,
+    .swiper-button-active::after {
+        font-size: 15px !important;
+        font-weight: 700 !important;
+        @apply text-mlf-bright-pink;
+    }
 }
 
 .pink-gradient {
