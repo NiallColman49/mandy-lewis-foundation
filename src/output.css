@@ -950,6 +950,10 @@ button.dark-button:hover {
   width: 100%;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
 .max-w-\[225px\] {
   max-width: 225px;
 }
